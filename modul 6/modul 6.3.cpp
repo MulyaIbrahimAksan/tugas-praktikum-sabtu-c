@@ -1,13 +1,13 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main()
-{
-	int n = 1;
-	for(int a = 0; a <= 10; a++){
-		cout<<n<<" ";
-		n*=2;
-	}
-	return 0;
+int main() {
+    int i;
+    int num = 1;
+
+    for (i = 0; i <= 10; i++) {
+        printf("%d  ", num);
+        num *= 2;
+    }
+
+    return 0;
 }
-

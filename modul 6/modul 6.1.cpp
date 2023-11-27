@@ -1,9 +1,11 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main()
-{
-	for(int a = 10; a <= 100; a+=10) {
-		cout<<a<<" ";
-	}
+int main() {
+    int i;
+
+    for (i = 100; i >= 10; i -= 10) {
+        printf("%d  ", i);
+    }
+
+    return 0;
 }
